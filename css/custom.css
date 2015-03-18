@@ -10,7 +10,9 @@ and open the template in the editor.
 
 .modal-content form .control-group .controls {float:left;}
 
-.table-buttons a  { padding:10px; width:200px; margin-left:210px; font-size:15px;}
+.table-buttons a,.table-buttons .input-append input { padding:10px; width:200px; margin-left:50px; font-size:15px;}
+.table-buttons .add-on {padding:10px;}
+.table-buttons .input-append{ float:right;}
 
 #fakeBrowse { margin:0px 0px 10px 10px;}
 
@@ -33,3 +35,10 @@ and open the template in the editor.
 
 #radioForm #exportButton { margin-top:25px;}
 
+.modal a {padding:10px; font-size:18px!important;}
+
+.modal { height:620px!important;}
+
+.modal-body {overflow: visible;}
+
+.modal-footer { margin-top:10px; margin-left:-15px; width:100%;}

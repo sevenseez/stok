@@ -90,12 +90,12 @@ class Adres extends CActiveRecord
 	 * @return CActiveDataProvider the data provider that can return the models
 	 * based on the search/filter conditions.
 	 */
-	public function search()
+	/*public function search()
 	{
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
-
+                
 		$criteria->compare('id',$this->id);
 		$criteria->compare('firma_adi',$this->firma_adi,true);
 		$criteria->compare('firma_yetkili',$this->firma_yetkili,true);
@@ -114,8 +114,64 @@ class Adres extends CActiveRecord
                             ),
 		));
 	}
+        */
+      
 
-	/**
+    public function search($text_old ='') {
+        
+   if(empty($text_old) || $text_old==null)
+            
+        {
+           return new CActiveDataProvider($this, array(
+                        'pagination'=>array(
+                            'pageSize'=> 10,
+                            ),
+		)); 
+            
+        }
+        else {
+        $rows = $this->findAll();
+        
+        $text = str_replace('/', ' ', $text_old);
+        $text = trim($text);
+
+        $text = strtolower($text);
+        $text = explode(' ', $text);
+
+        $bool = false;
+        $array = array();
+        for ($i = 0; $i < count($rows); $i++) {
+            for ($j = 0; $j < count($text); $j++) {
+                if ($j > 0 && $bool != true) {
+                    break;
+                }
+                $bool = false;
+                foreach ($rows[$i] as $item => $value) {
+                    $value = str_replace('/', '', $value);
+                    if (strpos($value, $text[$j]) !== false) {
+                        $bool = true;
+                        break;
+                    }
+                }
+            }
+            if ($bool == true) {
+                array_push($array, $rows[$i]);
+            }
+        }
+        $dataProvider = new CArrayDataProvider($array, array(
+            'keyField' => $this->tableSchema->primaryKey,
+            'sort' => array('defaultOrder' => 'id DESC',),
+            'pagination' => array(
+                'pageSize' => '10',
+                'route'=>'adres/index',
+            ),
+        ));
+        return $dataProvider;
+        }     
+
+    }
+
+    /**
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.

@@ -1,11 +1,14 @@
 <div class="modal fade" id="insert_screen">
-    <div class="modal-dialog" id="insert_dialog">
-        <div class="modal-content" id="insert_content">
-            <a class="close" data-dismiss="modal">&times;</a>
+        <a class="close" data-dismiss="modal">&times;</a>
+    <div class="modal-header">
+        <h3>Veri Ekle</h3>
+    </div>
+    <div class="modal-body" id="insert_body">
             <?php
             $form = $this->beginWidget(
                 'CActiveForm', array(
                 'id' => 'form',
+                'htmlOptions'=>array('class'=>'form-horizontal'),
                 'action' => Yii::app()->createUrl('adres/'),
                 'enableClientValidation' => true,
                 'clientOptions' => array(
@@ -20,17 +23,15 @@
             <?php
             include('adres_form.php');
             ?>
-            <div class="form-group ">
-                <div class="edit_buttons">
+            <div class="modal-footer">
                     <?php
                     echo CHtml::submitButton('Kaydet', array('name' => 'InsertButton',
                         'id' => 'update',
                         'class' => 'btn btn-primary',));
                     ?>
                     <button type="button" data-dismiss="modal" class="btn btn-primary">İptal</button>
-                </div>
+               
             </div>
             <?php $this->endWidget(); ?>
-        </div>
     </div>
 </div> 

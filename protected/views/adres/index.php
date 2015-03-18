@@ -82,15 +82,19 @@
                 array('class'=>'btn btn-default','confirm'=>'Verileri silmek istediğinize emin misiniz ?'));
         
         ?>
+           
+        <div class="input-append">
+            <input type="text" id="search" placeholder="Arama Yap"><span class="add-on"><i class="fa fa-search"></i></span>
+        </div>
+            
     </div>
 
-    <?php  
+    <?php   
             $this->widget('zii.widgets.grid.CGridView', array(
-            'dataProvider'=> $model->search(),
+            'dataProvider'=> $dataProvider,
             'summaryText'=>'',
+            'template'=>"{pager}\n{items}\n{pager}",
             'selectableRows'=>2,
-            'ajaxUpdate' => true,
-            'filter'=>$model,
             'id'=>'adres-grid',
              'columns'=>array(
                 array(

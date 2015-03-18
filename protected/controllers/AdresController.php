@@ -19,18 +19,21 @@ class AdresController extends Controller {
     
     public function actionIndex() {
         
+       $model = new Adres();
+      
+        if(isset($_GET['text']) && !empty($_GET['text'])){
+            $dataProvider = $model->search($_GET['text']);
+        }
+        else $dataProvider = $model->search();
+            
         if (isset($_GET['pageSize'])) {
             Yii::app()->user->setState('pageSize',(int)$_GET['pageSize']);
             unset($_GET['pageSize']);  // would interfere with pager and repetitive page size change
             }
-        $model = new Adres('search');
-        if (isset($_GET['Adres'])) {
-            $model->attributes = $_GET['Adres'];
-        }    
-            
+                   
         $this->checkInsert();
         $this->checkEdit();
-        $this->render('index',array('model'=>$model));
+        $this->render('index',array('dataProvider'=>$dataProvider));
     }
 
     public function actionUpload() {
@@ -123,7 +126,7 @@ class AdresController extends Controller {
         $adres->attributes = $_POST['Adres'];
         $adres->save();
         }
-    }
+    } 
     // Uncomment the following methods and override them if needed
     /*
       public function filters()

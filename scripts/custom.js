@@ -30,3 +30,16 @@ var textinput = document.getElementById("filename");
 textinput.value = fileinput.value;
 
 }
+
+$(document).ready(function a() {
+    $('#search').keypress(function (e) {
+        if (e.keyCode == 13)
+        {   
+            e.preventDefault();
+            value = $('#search').val();
+            $.fn.yiiGridView.update('adres-grid'
+                    ,{url:"",data:{text:value}});
+           
+        }
+    });
+});
