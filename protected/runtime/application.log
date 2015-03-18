@@ -1,0 +1,2313 @@
+2015/03/16 10:42:38 [error] [php] Undefined offset: 307 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:50)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (50)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:42:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_adres.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (38)
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (13)
+in /opt/lampp/htdocs/stok/protected/views/layouts/nav.php (6)
+2015/03/16 10:49:09 [error] [php] Array to string conversion (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:42)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (42)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:52:34 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:55:18 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:55:53 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:08 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:10 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:28 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:29 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:30 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:36 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:36 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:37 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:37 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:41 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:57:42 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:58:07 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:58:22 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:58:24 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:58:24 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:58:25 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:58:25 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:58:27 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:58:34 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:58:49 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:59:13 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:59:15 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:59:15 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:59:15 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 10:59:31 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:00:14 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:44 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:46 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:47 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:49 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:49 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:50 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:50 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:50 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:50 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:51 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:01:51 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:04:19 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:04:21 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:57:08 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 11:58:05 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 12:04:24 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 12:05:45 [error] [php] Undefined variable: helper (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (49)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 12:06:47 [error] [php] Array to string conversion (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:48)
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(11): importExcel->copyFile()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (48)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 12:07:12 [error] [php] Array to string conversion (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:47)
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(11): importExcel->copyFile()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (47)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 12:07:38 [error] [php] Array to string conversion (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:48)
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(11): importExcel->copyFile()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (48)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 12:16:56 [error] [exception.CException] exception 'CException' with message 'Property "Adres.yetkilinin_konumu" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('yetkilinin_konu...', 'Field Applicati...')
+#1 /opt/lampp/htdocs/yii/framework/base/CModel.php(607): CActiveRecord->__set('yetkilinin_konu...', 'Field Applicati...')
+#2 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(57): CModel->offsetSet('yetkilinin_konu...', 'Field Applicati...')
+#3 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(19): importExcel->insertDatabase('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(11): importExcel->copyFile()
+#5 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('upload')
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/upload')
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/stok/adres/upload
+HTTP_REFERER=http://localhost/stok/adres/
+---
+2015/03/16 12:18:31 [error] [exception.CException] exception 'CException' with message 'Adres and its behaviors do not have a method or closure named "errors".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(227): CComponent->__call('errors', Array)
+#1 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(60): CActiveRecord->__call('errors', Array)
+#2 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(60): Adres->errors()
+#3 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(19): importExcel->insertDatabase('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(11): importExcel->copyFile()
+#5 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('upload')
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/upload')
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/stok/adres/upload
+HTTP_REFERER=http://localhost/stok/adres/
+---
+2015/03/16 12:28:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'. The SQL statement executed was: UPDATE `adres` SET `firma_adi`=:yp0, `firma_yetkili`=:yp1, `yetkilinin_konumu`=:yp2, `firma_adresi`=:yp3, `firma_telefonu`=:yp4, `firma_fax`=:yp5, `firma_web_sitesi`=:yp6, `e_mail`=:yp7, `gsm`=:yp8, `id`=:yp9 WHERE `adres`.`id`=2.
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (59)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 12:28:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'. The SQL statement executed was: UPDATE `adres` SET `firma_adi`=:yp0, `firma_yetkili`=:yp1, `yetkilinin_konumu`=:yp2, `firma_adresi`=:yp3, `firma_telefonu`=:yp4, `firma_fax`=:yp5, `firma_web_sitesi`=:yp6, `e_mail`=:yp7, `gsm`=:yp8, `id`=:yp9 WHERE `adres`.`id`=2' in /opt/lampp/htdocs/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(1753): CDbCommand->execute()
+#1 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(1127): CActiveRecord->updateByPk('2', Array)
+#2 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(809): CActiveRecord->update(NULL)
+#3 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(59): CActiveRecord->save()
+#4 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(19): importExcel->insertDatabase('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(11): importExcel->copyFile()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('upload')
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/upload')
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/stok/adres/upload
+HTTP_REFERER=http://localhost/stok/adres/
+---
+2015/03/16 12:42:28 [error] [php] Undefined variable: id (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:61)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (61)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (11)
+2015/03/16 12:42:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_adres.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (38)
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (13)
+in /opt/lampp/htdocs/stok/protected/views/layouts/nav.php (6)
+2015/03/16 13:01:26 [error] [php] Undefined variable: dataprovider (/opt/lampp/htdocs/stok/protected/views/adres/index.php:38)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): AdresController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): AdresController->renderPartial()
+#2 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(7): AdresController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/
+in /opt/lampp/htdocs/stok/protected/views/adres/index.php (38)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (7)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/16 13:01:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_adres.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (38)
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (13)
+in /opt/lampp/htdocs/stok/protected/views/layouts/nav.php (6)
+2015/03/16 13:02:00 [error] [php] Undefined variable: dataprovider (/opt/lampp/htdocs/stok/protected/views/adres/index.php:38)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): AdresController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): AdresController->renderPartial()
+#2 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(7): AdresController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/
+in /opt/lampp/htdocs/stok/protected/views/adres/index.php (38)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (7)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/16 13:02:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_adres.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (38)
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (13)
+in /opt/lampp/htdocs/stok/protected/views/layouts/nav.php (6)
+2015/03/16 13:02:01 [error] [php] Undefined variable: dataprovider (/opt/lampp/htdocs/stok/protected/views/adres/index.php:38)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): AdresController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): AdresController->renderPartial()
+#2 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(7): AdresController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/
+in /opt/lampp/htdocs/stok/protected/views/adres/index.php (38)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (7)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/16 13:02:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_adres.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (38)
+in /opt/lampp/htdocs/stok/protected/components/WebUser.php (13)
+in /opt/lampp/htdocs/stok/protected/views/layouts/nav.php (6)
+2015/03/16 13:03:53 [error] [php] Undefined variable: dataprovider (/opt/lampp/htdocs/stok/protected/views/adres/index.php:38)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): AdresController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): AdresController->renderPartial()
+#2 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(7): AdresController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/
+in /opt/lampp/htdocs/stok/protected/views/adres/index.php (38)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (7)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/16 13:35:43 [error] [exception.CException] exception 'CException' with message 'Alias "zii.widgets.grid.GridView" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('zii.widgets.gri...', true)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'zii.widgets.gri...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /opt/lampp/htdocs/stok/protected/views/adres/index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): CController->render('index', Array)
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/index')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/stok/adres/index/Adres_page/2//Adres_page/7
+HTTP_REFERER=http://localhost/stok/adres/index/Adres_page/2//Adres_page/30
+---
+2015/03/16 13:35:52 [error] [exception.CException] exception 'CException' with message 'Alias "zii.widgets.grids.GridView" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('zii.widgets.gri...', true)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'zii.widgets.gri...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /opt/lampp/htdocs/stok/protected/views/adres/index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): CController->render('index', Array)
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/index')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/stok/adres/index/Adres_page/2//Adres_page/7
+HTTP_REFERER=http://localhost/stok/adres/index/Adres_page/2//Adres_page/30
+---
+2015/03/16 13:36:14 [error] [exception.CException] exception 'CException' with message 'Property "CGridView.title" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('title', 'Title')
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'zii.widgets.gri...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /opt/lampp/htdocs/stok/protected/views/adres/index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): CController->render('index', Array)
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/index')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/stok/adres/index/Adres_page/2//Adres_page/7
+HTTP_REFERER=http://localhost/stok/adres/index/Adres_page/2//Adres_page/30
+---
+2015/03/16 13:37:00 [error] [exception.CException] exception 'CException' with message 'Property "CGridView.autoWidth" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('autoWidth', false)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'zii.widgets.gri...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /opt/lampp/htdocs/stok/protected/views/adres/index.php(59): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): CController->render('index', Array)
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/index')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/stok/adres/index/Adres_page/2//Adres_page/7
+HTTP_REFERER=http://localhost/stok/adres/index/Adres_page/2//Adres_page/30
+---
+2015/03/16 13:50:27 [error] [php] Illegal string offset 'Excel5' (/opt/lampp/htdocs/stok/protected/extensions/EExcelView.php:212)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionExport()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/export
+in /opt/lampp/htdocs/stok/protected/extensions/EExcelView.php (212)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (41)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/16 13:50:38 [error] [exception.CException] exception 'CException' with message 'Property "EExcelView.mimeType" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('mimeType', 'Excel2007')
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'application.ext...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('application.ext...', Array)
+#3 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(41): CBaseController->widget('application.ext...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionExport()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('export')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/export')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/stok/adres/export
+HTTP_REFERER=http://localhost/stok/adres/index/Adres_page/2//Adres_page/7
+---
+2015/03/16 13:58:00 [error] [exception.CException] exception 'CException' with message 'Property "Adres.search" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('search')
+#1 /opt/lampp/htdocs/stok/protected/views/adres/index.php(44): CActiveRecord->__get('search')
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#6 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): CController->render('index', Array)
+#7 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres')
+#13 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/stok/adres
+---
+2015/03/16 14:07:45 [error] [php] Illegal string offset 'id' (/opt/lampp/htdocs/yii/framework/zii/widgets/CBaseListView.php:130)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(180): AdresController->createWidget()
+#1 /opt/lampp/htdocs/stok/protected/views/adres/index.php(64): AdresController->widget()
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): AdresController->renderInternal()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(869): AdresController->renderFile()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(782): AdresController->renderPartial()
+#6 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): AdresController->render()
+#7 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres
+in /opt/lampp/htdocs/stok/protected/views/adres/index.php (64)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (13)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/16 14:08:37 [error] [exception.CException] exception 'CException' with message 'Property "CGridView.rowsCssClass" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('rowsCssClass', Array)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'zii.widgets.gri...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 /opt/lampp/htdocs/stok/protected/views/adres/index.php(65): CBaseController->widget('zii.widgets.gri...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): CController->render('index', Array)
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/stok/adres
+---
+2015/03/16 14:11:52 [error] [php] call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members (/opt/lampp/htdocs/yii/framework/base/CComponent.php:617)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/zii/widgets/grid/CGridView.php(578): CGridView->renderTableRow()
+#1 /opt/lampp/htdocs/yii/framework/zii/widgets/grid/CGridView.php(488): CGridView->renderTableBody()
+#2 /opt/lampp/htdocs/yii/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#3 unknown(0): CGridView->renderSection()
+#4 /opt/lampp/htdocs/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback()
+#5 /opt/lampp/htdocs/yii/framework/zii/widgets/CBaseListView.php(149): CGridView->renderContent()
+#6 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(181): CGridView->run()
+#7 /opt/lampp/htdocs/stok/protected/views/adres/index.php(66): AdresController->widget()
+#8 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#9 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): AdresController->renderInternal()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(869): AdresController->renderFile()
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(782): AdresController->renderPartial()
+#12 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): AdresController->render()
+#13 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#15 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#16 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#17 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#18 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#19 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres
+in /opt/lampp/htdocs/stok/protected/views/adres/index.php (66)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (13)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/16 14:49:58 [error] [exception.CException] exception 'CException' with message 'AdresController cannot find the requested view "adres/edit_adres".' in /opt/lampp/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(50): CController->renderPartial('adres/edit_adre...', Array, false, true)
+#1 [internal function]: AdresController->actionEdit('1')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(AdresController), Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdresController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/stok/adres/edit/1
+HTTP_REFERER=http://localhost/stok/adres/index/Adres_page/2
+---
+2015/03/16 14:50:27 [error] [exception.CException] exception 'CException' with message 'AdresController cannot find the requested view "adres/edit_adres".' in /opt/lampp/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(50): CController->renderPartial('adres/edit_adre...', Array, false, true)
+#1 [internal function]: AdresController->actionEdit('1')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(AdresController), Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdresController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/stok/adres/edit/1
+HTTP_REFERER=http://localhost/stok/adres/index/Adres_page/2
+---
+2015/03/16 14:50:45 [error] [exception.CException] exception 'CException' with message 'Alias "booster.widgets.TbActiveForm" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:348
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('booster.widgets...', true)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'booster.widgets...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(197): CBaseController->createWidget('booster.widgets...', Array)
+#3 /opt/lampp/htdocs/stok/protected/views/adres/edit_adres.php(19): CBaseController->beginWidget('booster.widgets...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(50): CController->renderPartial('edit_adres', Array, false, true)
+#8 [internal function]: AdresController->actionEdit('1')
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(AdresController), Array)
+#10 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdresController), Object(ReflectionMethod), Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#15 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#16 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#17 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#18 {main}
+REQUEST_URI=/stok/adres/edit/1
+HTTP_REFERER=http://localhost/stok/adres/index/Adres_page/2
+---
+2015/03/16 14:51:13 [error] [exception.CException] exception 'CException' with message 'Property "Adres.cihaz_id" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('cihaz_id')
+#1 /opt/lampp/htdocs/yii/framework/web/helpers/CHtml.php(2728): CActiveRecord->__get('cihaz_id')
+#2 /opt/lampp/htdocs/yii/framework/web/helpers/CHtml.php(2451): CHtml::resolveValue(Object(Adres), 'cihaz_id')
+#3 /opt/lampp/htdocs/yii/framework/web/helpers/CHtml.php(1788): CHtml::activeInputField('hidden', Object(Adres), 'cihaz_id', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(823): CHtml::activeHiddenField(Object(Adres), 'cihaz_id', Array)
+#5 /opt/lampp/htdocs/stok/protected/views/adres/edit_adres.php(21): CActiveForm->hiddenField(Object(Adres), 'cihaz_id', Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#9 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(50): CController->renderPartial('edit_adres', Array, false, true)
+#10 [internal function]: AdresController->actionEdit('1')
+#11 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(AdresController), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdresController), Object(ReflectionMethod), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#17 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#18 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#19 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#20 {main}
+REQUEST_URI=/stok/adres/edit/1
+HTTP_REFERER=http://localhost/stok/adres/index/Adres_page/2
+---
+2015/03/16 15:13:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "activity.html".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('activity.html')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('activity.html')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/activity....')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/activity.html
+HTTP_REFERER=http://localhost/stok/adres/
+---
+2015/03/16 15:13:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "charts.html".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('charts.html')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('charts.html')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/charts.ht...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/charts.html
+HTTP_REFERER=http://localhost/stok/adres/activity.html
+---
+2015/03/16 15:21:45 [error] [php] include(Types.php): failed to open stream: Böyle bir dosya ya da dizin yok (/opt/lampp/htdocs/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/views/adres/index.php(42): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): AdresController->renderInternal()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(869): AdresController->renderFile()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(782): AdresController->renderPartial()
+#5 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): AdresController->render()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/
+in /opt/lampp/htdocs/stok/protected/views/adres/index.php (42)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (13)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/16 15:22:02 [error] [php] include(Types.php): failed to open stream: Böyle bir dosya ya da dizin yok (/opt/lampp/htdocs/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/views/adres/index.php(42): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): AdresController->renderInternal()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(869): AdresController->renderFile()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(782): AdresController->renderPartial()
+#5 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(13): AdresController->render()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): AdresController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/
+in /opt/lampp/htdocs/stok/protected/views/adres/index.php (42)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (13)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/16 15:41:53 [error] [exception.CException] exception 'CException' with message 'Property "EExcelView.rowsCssClass" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('rowsCssClass', 'height:50px;')
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'application.ext...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('application.ext...', Array)
+#3 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(42): CBaseController->widget('application.ext...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionExport()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('export')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/export')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/stok/adres/export
+HTTP_REFERER=http://localhost/stok/adres/
+---
+2015/03/17 07:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adres".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('adres')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('adres')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/adres')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/adres/export
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 07:48:30 [error] [php] Undefined index: optionRadios (/opt/lampp/htdocs/stok/protected/controllers/AdresController.php:40)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/export
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (40)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 07:48:56 [error] [php] Undefined variable: exportAs (/opt/lampp/htdocs/stok/protected/controllers/AdresController.php:47)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/export
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (47)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 07:49:44 [error] [exception.PHPExcel_Writer_Exception] exception 'PHPExcel_Writer_Exception' with message 'PDF Rendering library has not been defined.' in /opt/lampp/htdocs/stok/protected/extensions/phpexcel/Classes/PHPExcel/Writer/PDF.php:56
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/extensions/phpexcel/Classes/PHPExcel/IOFactory.php(141): PHPExcel_Writer_PDF->__construct(Object(PHPExcel))
+#1 /opt/lampp/htdocs/stok/protected/extensions/EExcelView.php(202): PHPExcel_IOFactory::createWriter(Object(PHPExcel), 'PDF')
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(181): EExcelView->run()
+#3 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(61): CBaseController->widget('application.ext...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionExport()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('export')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/export')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/stok/adres/export
+HTTP_REFERER=http://localhost/stok/adres/
+---
+2015/03/17 07:52:30 [error] [exception.PHPExcel_Writer_Exception] exception 'PHPExcel_Writer_Exception' with message 'PDF Rendering library has not been defined.' in /opt/lampp/htdocs/stok/protected/extensions/phpexcel/Classes/PHPExcel/Writer/PDF.php:56
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/extensions/phpexcel/Classes/PHPExcel/IOFactory.php(141): PHPExcel_Writer_PDF->__construct(Object(PHPExcel))
+#1 /opt/lampp/htdocs/stok/protected/extensions/EExcelView.php(202): PHPExcel_IOFactory::createWriter(Object(PHPExcel), 'PDF')
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(181): EExcelView->run()
+#3 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(61): CBaseController->widget('application.ext...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionExport()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('export')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/export')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/stok/adres/export
+HTTP_REFERER=http://localhost/stok/adres/
+---
+2015/03/17 08:10:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /opt/lampp/htdocs/yii/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/stok/adres/edit/cihazlar
+HTTP_REFERER=http://localhost/stok/adres/edit/1
+---
+2015/03/17 08:13:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /opt/lampp/htdocs/yii/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/stok/adres/edit/cihazlar
+HTTP_REFERER=http://localhost/stok/adres/edit/1
+---
+2015/03/17 08:13:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /opt/lampp/htdocs/yii/framework/web/CController.php:336
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#12 {main}
+REQUEST_URI=/stok/adres/edit/adres/index
+HTTP_REFERER=http://localhost/stok/adres/edit/1
+---
+2015/03/17 08:20:35 [error] [php] Undefined index: InsertButton (/opt/lampp/htdocs/stok/protected/controllers/AdresController.php:91)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/index
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (91)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (27)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 08:22:12 [error] [php] Undefined index: InsertButton (/opt/lampp/htdocs/stok/protected/controllers/AdresController.php:91)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/index
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (91)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (27)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 08:22:14 [error] [php] Undefined index: InsertButton (/opt/lampp/htdocs/stok/protected/controllers/AdresController.php:91)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/index
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (91)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (27)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 08:22:29 [error] [php] Undefined index: InsertButton (/opt/lampp/htdocs/stok/protected/controllers/AdresController.php:91)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (91)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (27)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 08:23:56 [warning] [application] Failed to set unsafe attribute "Adres" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 08:23:56 [warning] [application] Failed to set unsafe attribute "UpdateButton" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 09:19:40 [error] [php] Undefined variable: htmlOptions (/opt/lampp/htdocs/stok/protected/views/adres/index.php:36)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): AdresController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): AdresController->renderPartial()
+#2 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(30): AdresController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#9 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/index
+in /opt/lampp/htdocs/stok/protected/views/adres/index.php (36)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (30)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 09:24:09 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "crerateUrl".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/views/adres/index.php(35): CComponent->__call('crerateUrl', Array)
+#1 /opt/lampp/htdocs/stok/protected/views/adres/index.php(35): CWebApplication->crerateUrl('adres/test')
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#6 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(30): CController->render('index', Array)
+#7 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#17 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/index')
+#18 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#19 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#20 {main}
+REQUEST_URI=/stok/adres/index
+---
+2015/03/17 09:30:11 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:43)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (43)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (35)
+2015/03/17 09:30:15 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:43)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (43)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (35)
+2015/03/17 09:30:29 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:43)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (43)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (35)
+2015/03/17 09:30:32 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:43)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (43)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (35)
+2015/03/17 09:30:38 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:43)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (43)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (35)
+2015/03/17 09:30:47 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:43)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (43)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (35)
+2015/03/17 09:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('<')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('<')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/<')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/%3C?php%20echo%20Yii::app()-%3EcreateUrl(%27adres/upload%27);?%3E
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 09:39:48 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:43)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (43)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (35)
+2015/03/17 09:49:13 [error] [php] include(phpYii.php): failed to open stream: Böyle bir dosya ya da dizin yok (/opt/lampp/htdocs/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/views/layouts/main.php(11): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): AdresController->renderInternal()
+#3 /opt/lampp/htdocs/yii/framework/web/widgets/CContentDecorator.php(76): AdresController->renderFile()
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#5 /opt/lampp/htdocs/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(214): CContentDecorator->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(308): AdresController->endWidget()
+#8 /opt/lampp/htdocs/stok/protected/views/layouts/column1.php(6): AdresController->endContent()
+#9 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#10 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): AdresController->renderInternal()
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(784): AdresController->renderFile()
+#12 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(30): AdresController->render()
+#13 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#15 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#16 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#18 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#19 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#20 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#22 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#23 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#24 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#25 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/index
+in /opt/lampp/htdocs/stok/protected/views/layouts/main.php (11)
+in /opt/lampp/htdocs/stok/protected/views/layouts/column1.php (6)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (30)
+2015/03/17 09:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/stok/js/jquery.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 09:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.js')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/stok/js/jquery.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 09:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/stok/js/jquery.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 09:56:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 09:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 09:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 09:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 10:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 10:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 10:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 10:01:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 10:01:55 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:43)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (43)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (19)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (35)
+2015/03/17 10:03:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 10:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "stok".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('stok')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('stok')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/stok')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/stok/scripts/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 10:10:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "table.html".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('table.html')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('table.html')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/table.htm...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/table.html
+HTTP_REFERER=http://localhost/stok/adres/index
+---
+2015/03/17 10:39:43 [error] [php] Undefined index: id (/opt/lampp/htdocs/stok/protected/controllers/AdresController.php:92)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (92)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (27)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:40:37 [warning] [application] Failed to set unsafe attribute "Adres" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (93)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (27)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:40:37 [warning] [application] Failed to set unsafe attribute "InsertButton" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (93)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (27)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:40:46 [warning] [application] Failed to set unsafe attribute "Adres" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:40:46 [warning] [application] Failed to set unsafe attribute "UpdateButton" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:40:55 [warning] [application] Failed to set unsafe attribute "Adres" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:40:55 [warning] [application] Failed to set unsafe attribute "UpdateButton" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:41:13 [warning] [application] Failed to set unsafe attribute "id" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:41:28 [warning] [application] Failed to set unsafe attribute "id" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:42:31 [warning] [application] Failed to set unsafe attribute "id" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 10:42:35 [error] [exception.CException] exception 'CException' with message 'Property "Adres.firma_e_mail" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('firma_e_mail')
+#1 /opt/lampp/htdocs/yii/framework/web/helpers/CHtml.php(2728): CActiveRecord->__get('firma_e_mail')
+#2 /opt/lampp/htdocs/yii/framework/web/helpers/CHtml.php(2451): CHtml::resolveValue(Object(Adres), 'firma_e_mail')
+#3 /opt/lampp/htdocs/yii/framework/web/helpers/CHtml.php(1533): CHtml::activeInputField('text', Object(Adres), 'firma_e_mail', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(792): CHtml::activeTextField(Object(Adres), 'firma_e_mail', Array)
+#5 /opt/lampp/htdocs/stok/protected/views/adres/adres_form.php(25): CActiveForm->textField(Object(Adres), 'firma_e_mail')
+#6 /opt/lampp/htdocs/stok/protected/views/adres/edit_adres.php(22): include('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#10 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(71): CController->renderPartial('edit_adres', Array, false, true)
+#11 [internal function]: AdresController->actionEdit('1')
+#12 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(AdresController), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdresController), Object(ReflectionMethod), Array)
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#23 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#24 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#25 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#26 {main}
+REQUEST_URI=/stok/adres/edit/1
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 10:42:38 [error] [exception.CException] exception 'CException' with message 'Property "Adres.firma_e_mail" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('firma_e_mail')
+#1 /opt/lampp/htdocs/yii/framework/web/helpers/CHtml.php(2728): CActiveRecord->__get('firma_e_mail')
+#2 /opt/lampp/htdocs/yii/framework/web/helpers/CHtml.php(2451): CHtml::resolveValue(Object(Adres), 'firma_e_mail')
+#3 /opt/lampp/htdocs/yii/framework/web/helpers/CHtml.php(1533): CHtml::activeInputField('text', Object(Adres), 'firma_e_mail', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(792): CHtml::activeTextField(Object(Adres), 'firma_e_mail', Array)
+#5 /opt/lampp/htdocs/stok/protected/views/adres/adres_form.php(25): CActiveForm->textField(Object(Adres), 'firma_e_mail')
+#6 /opt/lampp/htdocs/stok/protected/views/adres/edit_adres.php(22): include('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#10 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(71): CController->renderPartial('edit_adres', Array, false, true)
+#11 [internal function]: AdresController->actionEdit('1')
+#12 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(AdresController), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdresController), Object(ReflectionMethod), Array)
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#23 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#24 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#25 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#26 {main}
+REQUEST_URI=/stok/adres/edit/1
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 10:43:45 [warning] [application] Failed to set unsafe attribute "id" of "Adres".
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (84)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 11:08:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adres".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('adres')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('adres')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/adres')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/stok/adres/adres/
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 12:18:58 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.class" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('class', 'form form-horiz...')
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'CActiveForm', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(197): CBaseController->createWidget('CActiveForm', Array)
+#3 /opt/lampp/htdocs/stok/protected/views/adres/edit_adres.php(19): CBaseController->beginWidget('CActiveForm', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(71): CController->renderPartial('edit_adres', Array, false, true)
+#8 [internal function]: AdresController->actionEdit('16')
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(AdresController), Array)
+#10 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdresController), Object(ReflectionMethod), Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#20 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#21 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#22 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/stok/adres/edit/16
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 12:19:00 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.class" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('class', 'form form-horiz...')
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'CActiveForm', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(197): CBaseController->createWidget('CActiveForm', Array)
+#3 /opt/lampp/htdocs/stok/protected/views/adres/edit_adres.php(19): CBaseController->beginWidget('CActiveForm', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(71): CController->renderPartial('edit_adres', Array, false, true)
+#8 [internal function]: AdresController->actionEdit('16')
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(AdresController), Array)
+#10 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdresController), Object(ReflectionMethod), Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#20 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#21 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#22 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/stok/adres/edit/16
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 12:19:06 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.class" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('class', 'form form-horiz...')
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(AdresController), 'CActiveForm', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(197): CBaseController->createWidget('CActiveForm', Array)
+#3 /opt/lampp/htdocs/stok/protected/views/adres/edit_adres.php(19): CBaseController->beginWidget('CActiveForm', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(71): CController->renderPartial('edit_adres', Array, false, true)
+#8 [internal function]: AdresController->actionEdit('16')
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(AdresController), Array)
+#10 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdresController), Object(ReflectionMethod), Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#20 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/edit')
+#21 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#22 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#23 {main}
+REQUEST_URI=/stok/adres/edit/16
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 12:20:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap/css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap/css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/stok/bootstrap/css/bootstrap-responsive.min.css
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 12:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap/css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap/css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/stok/bootstrap/css/bootstrap-responsive.min.css
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 13:00:25 [error] [exception.CException] exception 'CException' with message 'Property "CLinkPager.maxButtons" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('maxButtons', 5)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(CGridView), 'CLinkPager', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(180): CBaseController->createWidget('CLinkPager', Array)
+#3 /opt/lampp/htdocs/yii/framework/zii/widgets/CBaseListView.php(285): CBaseController->widget('CLinkPager', Array)
+#4 /opt/lampp/htdocs/yii/framework/zii/widgets/CBaseListView.php(181): CBaseListView->renderPager()
+#5 [internal function]: CBaseListView->renderSection(Array)
+#6 /opt/lampp/htdocs/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#7 /opt/lampp/htdocs/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#8 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#9 /opt/lampp/htdocs/stok/protected/views/adres/index.php(139): CBaseController->widget('zii.widgets.gri...', Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#13 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#14 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(30): CController->render('index', Array)
+#15 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionIndex()
+#16 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#25 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres')
+#26 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#27 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#28 {main}
+REQUEST_URI=/stok/adres
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 13:32:26 [error] [php] Creating default object from empty value (/opt/lampp/htdocs/stok/protected/controllers/AdresController.php:28)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres?Adres%5Bfirma_adi%5D=Ayeda%C5%9F&Adres%5Bfirma_yetkili%5D=&Adres%5Byetkilinin_konumu%5D=&Adres%5Bfirma_adresi%5D=&Adres%5Bfirma_telefonu%5D=&Adres%5Bfirma_fax%5D=&Adres%5Bfirma_web_sitesi%5D=&Adres%5Be_mail%5D=&Adres%5Bgsm%5D=&Adres_page=1&ajax=adres-grid
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (28)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 15:08:42 [error] [php] Undefined index: addImport (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:7)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (7)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (38)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 15:08:56 [error] [php] Undefined index: addImport (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:7)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (7)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (38)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 15:09:06 [error] [php] Undefined index: addImport (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:7)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (7)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (38)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 15:10:57 [error] [php] Undefined index: addImport (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:7)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (7)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (38)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 15:11:31 [error] [php] Undefined index: addImport (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:7)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (7)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (38)
+in /opt/lampp/htdocs/stok/index.php (15)
+2015/03/17 15:12:36 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/stok/protected/controllers/importExcel.php:46)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): AdresController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): AdresController->filterAccessControl()
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): AdresController->runActionWithFilters()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): AdresController->run()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/stok/index.php(15): CWebApplication->run()
+REQUEST_URI=/stok/adres/upload
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (46)
+in /opt/lampp/htdocs/stok/protected/controllers/importExcel.php (22)
+in /opt/lampp/htdocs/stok/protected/controllers/AdresController.php (38)
+2015/03/17 15:14:31 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "exit".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(8): CComponent->__call('exit', Array)
+#1 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(8): CWebApplication->exit()
+#2 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(38): importExcel->copyFile()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('upload')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/upload')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/stok/adres/upload
+HTTP_REFERER=http://localhost/stok/adres
+---
+2015/03/17 15:14:39 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "exit".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(8): CComponent->__call('exit', Array)
+#1 /opt/lampp/htdocs/stok/protected/controllers/importExcel.php(8): CWebApplication->exit()
+#2 /opt/lampp/htdocs/stok/protected/controllers/AdresController.php(38): importExcel->copyFile()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): AdresController->actionUpload()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('upload')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('adres/upload')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/stok/index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/stok/adres/upload
+HTTP_REFERER=http://localhost/stok/adres
+---
