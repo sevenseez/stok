@@ -16,7 +16,6 @@
             $cs->registerCssFile(BaseUrl.'/images/font-awesome/css/font-awesome.css');
             $cs->registerCssFile(BaseUrl.'/css/custom.css');
             
-            // $cs->registerScriptFile(BaseUrl.'/scripts/jquery-1.11.2.js');
             $cs->registerCoreScript('jquery');
             $cs->registerScriptFile(BaseUrl.'/scripts/jquery-ui-1.10.1.custom.min.js');
             $cs->registerScriptFile(BaseUrl.'/bootstrap/js/bootstrap.min.js');

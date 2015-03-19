@@ -126,7 +126,27 @@ class AdresController extends Controller {
         $adres->attributes = $_POST['Adres'];
         $adres->save();
         }
-    } 
+    }
+    
+    public function actionAcData(){
+        
+        $request = trim($_GET['term']);
+        if ($request != '') {
+            $model = Adres::model()->autoComplete($request);
+            $data = array();
+            foreach ($model as $get) {
+                foreach($get as $key=>$value)
+                {
+                    if(substr($value,0,strlen($request))===$request)
+                        $data[] = $value;
+                    if(count($data)>4)
+                        break;
+                 }
+            
+                }
+            echo json_encode($data);
+        }
+    }
     // Uncomment the following methods and override them if needed
     /*
       public function filters()

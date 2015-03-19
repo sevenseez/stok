@@ -37,9 +37,17 @@ $(document).ready(function a() {
         {   
             e.preventDefault();
             value = $('#search').val();
+            
             $.fn.yiiGridView.update('adres-grid'
                     ,{url:"",data:{text:value}});
            
         }
     });
 });
+
+/*
+$(document).ready(function() {
+    $('.items').dataTable( {
+        "order": [[ 3, "desc" ]]
+    } );
+} ); */

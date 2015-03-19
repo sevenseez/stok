@@ -82,9 +82,21 @@
                 array('class'=>'btn btn-default','confirm'=>'Verileri silmek istediğinize emin misiniz ?'));
         
         ?>
-           
         <div class="input-append">
-            <input type="text" id="search" placeholder="Arama Yap"><span class="add-on"><i class="fa fa-search"></i></span>
+        <?php   
+        
+        $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
+            'name'=>'search',
+            'id'=>'search',
+            'source'=>$this->createUrl('adres/acData'),
+            // additional javascript options for the autocomplete plugin
+            'options'=>array(
+                'showAnim'=>'fold',
+                'minLength'=>'2',
+            ),
+            'htmlOptions'=>array('placeholder'=>'Arama Yap'),
+        ));
+        ?><span class="add-on"><i class="fa fa-search"></i></span>
         </div>
             
     </div>

@@ -119,7 +119,8 @@ class Adres extends CActiveRecord
 
     public function search($text_old ='') {
         
-   if(empty($text_old) || $text_old==null)
+   $unset = array('-','/','_',':','.',',');
+   if(empty($text_old) || $text_old==null || in_array($text_old,$unset))
             
         {
            return new CActiveDataProvider($this, array(
@@ -132,7 +133,7 @@ class Adres extends CActiveRecord
         else {
         $rows = $this->findAll();
         
-        $text = str_replace('/', ' ', $text_old);
+        $text = str_replace($unset, ' ', $text_old);
         $text = trim($text);
 
         $text = strtolower($text);
@@ -147,7 +148,7 @@ class Adres extends CActiveRecord
                 }
                 $bool = false;
                 foreach ($rows[$i] as $item => $value) {
-                    $value = str_replace('/', '', $value);
+                    $value = str_replace($unset, '', $value);
                     if (strpos($value, $text[$j]) !== false) {
                         $bool = true;
                         break;
@@ -160,7 +161,7 @@ class Adres extends CActiveRecord
         }
         $dataProvider = new CArrayDataProvider($array, array(
             'keyField' => $this->tableSchema->primaryKey,
-            'sort' => array('defaultOrder' => 'id DESC',),
+            'sort' => array('defaultOrder' => 'id ASC'),
             'pagination' => array(
                 'pageSize' => '10',
                 'route'=>'adres/index',
@@ -169,6 +170,17 @@ class Adres extends CActiveRecord
         return $dataProvider;
         }     
 
+    }
+    
+    public function autoComplete($text){
+        $criteria  = new CDbCriteria();
+        
+        foreach($this->attributeLabels() as $key=>$value)
+            $criteria->addSearchCondition($key, $text,true,'OR');
+        
+        $criteria->distinct = true;
+        return $this->findAll($criteria);
+        
     }
 
     /**
